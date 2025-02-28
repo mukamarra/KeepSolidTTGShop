@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Сайт магазину настільних ігор - Подробиці про товар</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/ttgshop.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="" style="width: 158px" />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="shop.html">Наш магазин</a></li>
+                <li>
+                  <a href="product-details.html" class="active"
+                    >Подробиці про товар</a
+                  >
+                </li>
+                <li><a href="contact.html">Зв'яжіться з нами</a></li>
+                <li><a href="#">Увійти</a></li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Меню</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Назва настільної гри</h3>
+            <span class="breadcrumb"
+              ><a href="#">Головна</a> > <a href="#">Магазин</a> > Гра</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="single-product section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="left-image">
+              <img src="assets/images/single-game.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 align-self-center">
+            <h4>Назва настільної гри</h4>
+            <span class="price"><em>1920₴</em> 1529₴</span>
+            <p>
+              [Назва гри] – це захоплива настільна гра, де стратегія, удача та
+              взаємодія між гравцями визначають хід подій. Зануртеся у світ
+              [тема або сетинг гри], де вам доведеться [основна мета гри].
+            </p>
+            <form id="qty" action="#">
+              <input
+                type="qty"
+                class="form-control"
+                id="1"
+                aria-describedby="quantity"
+                placeholder="1"
+              />
+              <button type="submit">
+                <i class="fa fa-shopping-bag"></i> ДОДАТИ В КОШИК
+              </button>
+            </form>
+            <ul>
+              <li><span>Код гри:</span> TTGID</li>
+              <li>
+                <span>Жанр:</span> <a href="#">Жанр</a>, <a href="#">Жанр</a>,
+                <a href="#">Жанр</a>
+              </li>
+              <li>
+                <span>Ключові слова:</span> <a href="#">Тег</a>,
+                <a href="#">Тег</a>, <a href="#">Тег</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-12">
+            <div class="sep"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="tabs-content">
+              <div class="row">
+                <div class="nav-wrapper">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link active"
+                        id="description-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#description"
+                        type="button"
+                        role="tab"
+                        aria-controls="description"
+                        aria-selected="true"
+                      >
+                        Опис
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        id="reviews-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#reviews"
+                        type="button"
+                        role="tab"
+                        aria-controls="reviews"
+                        aria-selected="false"
+                      >
+                        Рецензії (3)
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="description"
+                    role="tabpanel"
+                    aria-labelledby="description-tab"
+                  >
+                    <p>
+                      [Назва гри] – Епічна настільна пригода у світі таємниць і
+                      небезпек! Вирушайте у захопливу подорож унікальним світом,
+                      де кожен вибір змінює хід подій! Ваша команда відважних
+                      героїв зіткнеться з легендарними випробуваннями,
+                      хитромудрими головоломками та смертельно небезпечними
+                      супротивниками.
+                    </p>
+                    <br />
+                    <p>
+                      У цій грі ви зможете:
+                      <br />🔹 Досліджувати загадкові землі, наповнені древніми
+                      руїнами, прихованими скарбами та несподіваними зустрічами.
+                      <br />🔹 Битися з ворогами, використовуючи унікальні
+                      здібності, магію чи хитрість, щоб досягти перемоги.
+                      <br />🔹 Приймати рішення, що змінять долю вашого
+                      персонажа та світу навколо вас. <br />🔹 Співпрацювати або
+                      зраджувати, обираючи між честю, вигодою чи безжальною
+                      боротьбою за виживання. <br />🔹 Занурюватися у глибокий
+                      сюжет, де кожен сценарій наповнений інтригами,
+                      несподіваними поворотами та можливістю створити власну
+                      легенду!
+
+                      <br /><br />Вас чекає неповторний досвід, що поєднує в
+                      собі стратегічне планування, рольову взаємодію та справжні
+                      пригоди. Чи зможете ви залишити слід в історії цього
+                      світу?
+
+                      <br /><br />🛡 Зберіть свою команду. Готуйтеся до
+                      випробувань. Створіть власну легенду!
+                    </p>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="reviews"
+                    role="tabpanel"
+                    aria-labelledby="reviews-tab"
+                  >
+                    <p>
+                      [Назва гри] – це [тип гри] для [кількість гравців]
+                      гравців, яка поєднує в собі [основні особливості,
+                      наприклад: стратегічне планування, швидкі партії,
+                      кооперативний геймплей]. Гравці беруть на себе роль
+                      [короткий опис ролей або сетингу], намагаючись [основна
+                      мета гри].
+
+                      <br /><br /><b>Компоненти та оформлення</b> <br />Гра
+                      пропонує [кількість] карт/жетонів/поля, виконаних у [стиль
+                      оформлення: реалістичний, мальований, мінімалістичний
+                      тощо]. Якість матеріалів [оцінка: висока, середня,
+                      бюджетна].
+
+                      <br /><br /><b>Механіки гри</b> <br />Основна механіка
+                      базується на [ключові механіки: кидок кубиків, будівництво
+                      колоди, розміщення робітників тощо], що створює [враження:
+                      глибокий стратегічний досвід, швидку динаміку, напружену
+                      атмосферу].
+
+                      <br /><br /><b>Враження від ігрового процесу</b> <br />Гра
+                      [легко/важко] освоюється, а партії тривають у середньому
+                      [тривалість]. Вона добре підходить для [типу гравців:
+                      новачків, досвідчених стратегів, любителів атмосфери].
+                      Найкраще грається у складі [ідеальна кількість гравців].
+
+                      <br /><br /><b>Плюси та мінуси</b> <br />✅ [Основна
+                      перевага 1] <br />✅ [Основна перевага 2] <br />❌
+                      [Можливий недолік 1] <br />❌ [Можливий недолік 2]
+
+                      <br /><br /><b>Вердикт</b> <br />[Назва гри] – чудовий
+                      вибір для [типу аудиторії], який пропонує [ключові
+                      переваги]. Якщо вам подобаються [схожі ігри або жанри], то
+                      ця гра обов’язково сподобається.
+
+                      <br /><br /><b>Оцінка: [X/10]</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section categories related-games">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h6>Жанр</h6>
+              <h2>Схожі ігри</h2>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="main-button">
+              <a href="shop.html">Переглянути все</a>
+            </div>
+          </div>
+          <div class="col-lg col-sm-6 col-xs-12">
+            <div class="item">
+              <h4>Жанр</h4>
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/categories-01.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-sm-6 col-xs-12">
+            <div class="item">
+              <h4>Жанр</h4>
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/categories-05.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-sm-6 col-xs-12">
+            <div class="item">
+              <h4>Жанр</h4>
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/categories-03.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-sm-6 col-xs-12">
+            <div class="item">
+              <h4>Жанр</h4>
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/categories-04.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-sm-6 col-xs-12">
+            <div class="item">
+              <h4>Жанр</h4>
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/categories-05.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="col-lg-12">
+          <p>
+            Copyright © 2048 LUGX Gaming Company. Всі права захищені.
+            &nbsp;&nbsp;
+            <a rel="nofollow" target="_blank">Nazar Kobzar</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
