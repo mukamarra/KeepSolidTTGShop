@@ -1,7 +1,7 @@
 # KeepSolidTTGShop
 This repository is designed for practice. Here is a concept of my TTGSHop website.
 
-Автор: Назар Кобзар, група З-41
+Автор: Назар Кобзар, група ІПЗ-2.03
 
 Цей сайт створений для того щоб продемонструвати мої вміння в HTML + CSS + JS.
 
